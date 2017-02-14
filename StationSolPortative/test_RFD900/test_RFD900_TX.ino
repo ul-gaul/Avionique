@@ -9,7 +9,7 @@
 #define RFD_PORT_NB 1
 #define RFD_BAUD_RATE 57600
 
-Transceiver RFD_TX();
+Transceiver RFD_TX;
 
 SerialPort serial_TX(RFD_PORT_NB, RFD_BAUD_RATE);
 
